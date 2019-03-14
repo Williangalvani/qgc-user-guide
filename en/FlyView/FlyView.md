@@ -42,13 +42,42 @@ By clicking on the video you can make it be the main display for the Fly view.
 
 To the right is an instrument panel showing you current information on your vehicle. 
 The center section of the panel has multiple pages. 
-You can switch between pages by clicking on the center section. 
+You can switch between pages by clicking on the title of the panel.
 
-### Telemetry page
+![Instrument Telemetry Page Selection](../../assets/fly/instrumentPageSelection.jpg)
 
-![Instrument Telemetry Page](../../assets/fly/InstrumentTelemetryPage.jpg)
+### Telemetry Values page
 
-The values shown within the telemetry page can be configured by clicking on the small gear icon.
+The telemetry page is able to display telemetry data that the operator deems relevant, such as altitude, temperature, and link quality.
+
+![Instrument Telemetry Values Widget](../../assets/fly/instrumentTelemetryPage.jpg)
+
+The values shown within the telemetry page can be configured by clicking on the small gear icon. They can be shown small (two per row) or large (one per row).
+
+![Instrument Telemetry Values Widget Setup](../../assets/fly/instrumentTelemetryPageSetup.jpg)
+
+
+### Camera page
+
+This page allows control of the camera.
+
+![Instrument Simple Camera page](../../assets/fly/instrumentCameraSimple.jpg)
+
+ If your setup supports the [Mavlink camera messages](https://mavlink.io/en/services/camera.html), this enables advanced camera controls, such as changing between pciture and video mode, starting recording/taking pictures, and changing advanced settings by clicking the gear icon at the top.
+
+![Instrument Advanced Camera page](../../assets/fly/instrumentCameraAdvanced.jpg)
+
+The changeable camera settings are exposed via the Mavlink API by the vehicle.
+
+![Instrument Advanced Camera page](../../assets/fly/instrumentCameraSettings.jpg)
+
+
+### Video Stream page
+
+This page allows starting/stoping the video stream, enabling a grid overlay, changing how the image fits the screen, and recording the video locally with QGC.
+
+![Instrument Video Stream page](../../assets/fly/instrumentVideoStreamPage.jpg)
+
 
 ### Vehicle Health page
 
